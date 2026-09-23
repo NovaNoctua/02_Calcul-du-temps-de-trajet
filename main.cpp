@@ -19,9 +19,11 @@ int main() {
     const double dy = 10.;
     const double s1 = 5.;
     const double s2 = 2.;
+    const double L1 = 6.; // Comment if done with User Entry
 
 
-    // User Entry to get L1
+    /*
+    // User Entry to get L1 (decomment to get it)
     double L1;
     cout << "Entrez la distance a parcourir sur la route : ";
 
@@ -33,6 +35,7 @@ int main() {
         cin.ignore(1000, '\n');
     }
     cout << "Distance sur la route : " << L1 << endl;
+    */
 
     // Distance in the dirt
     const double distance_dirt_y = dy - L1;
